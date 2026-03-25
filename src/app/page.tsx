@@ -1,101 +1,72 @@
-import Image from "next/image";
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import { BookOpen, BarChart3, Award } from "lucide-react"
 
-export default function Home() {
+const features = [
+  {
+    icon: BookOpen,
+    title: "Structured Learning",
+    description:
+      "Courses organized into modules and lessons, designed for progressive skill building.",
+  },
+  {
+    icon: BarChart3,
+    title: "Track Progress",
+    description:
+      "Monitor your learning journey with detailed progress tracking across all your courses.",
+  },
+  {
+    icon: Award,
+    title: "Earn Certificates",
+    description:
+      "Complete courses and pass quizzes to earn certificates that validate your skills.",
+  },
+]
+
+export default function HomePage() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="flex min-h-screen flex-col bg-stone-white">
+      {/* Hero */}
+      <section className="flex flex-1 flex-col items-center justify-center px-4 py-24">
+        <h1 className="text-6xl font-semibold text-olive-deep">
+          A<sup className="text-2xl">2</sup>
+        </h1>
+        <p className="mt-4 text-lg text-text-muted">
+          Learn at your own pace
+        </p>
+        <Button className="mt-8" size="lg" render={<Link href="/courses" />}>
+          Browse Courses
+        </Button>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Features */}
+      <section className="border-t border-border bg-stone-white px-4 py-20">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-3">
+          {features.map((feature) => (
+            <Card key={feature.title}>
+              <CardContent className="flex flex-col items-center text-center">
+                <div className="mb-4 flex size-12 items-center justify-center rounded bg-olive/10">
+                  <feature.icon className="size-6 text-olive" />
+                </div>
+                <h3 className="text-sm font-semibold text-olive-deep">
+                  {feature.title}
+                </h3>
+                <p className="mt-2 text-xs text-text-muted">
+                  {feature.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-border bg-stone-white">
+        <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-text-muted">
+          &copy; 2024 Aokar&eacute; Learn. All rights reserved.
+        </div>
       </footer>
     </div>
-  );
+  )
 }

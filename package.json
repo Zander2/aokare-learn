@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:courses": "npx tsx prisma/seeds/run-course-seeds.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",
     "@base-ui/react": "^1.3.0",
-    "@prisma/client": "^7.5.0",
+    "@prisma/client": "^5.22.0",
     "@react-pdf/renderer": "^4.3.2",
+    "@tailwindcss/typography": "^0.5.19",
     "bcryptjs": "^3.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -20,6 +22,7 @@
     "lucide-react": "^1.6.0",
     "next": "14.2.35",
     "next-auth": "5.0.0-beta.30",
+    "next-themes": "^0.4.6",
     "puppeteer": "^24.40.0",
     "react": "^18",
     "react-dom": "^18",
@@ -28,6 +31,7 @@
     "rehype-highlight": "^7.0.2",
     "remark-gfm": "^4.0.1",
     "shadcn": "^4.1.0",
+    "sonner": "^2.0.7",
     "tailwind-merge": "^3.5.0",
     "tw-animate-css": "^1.4.0",
     "zod": "^4.3.6"
@@ -42,12 +46,18 @@
     "eslint-config-prettier": "^10.1.8",
     "postcss": "^8",
     "prettier": "^3.8.1",
-    "prisma": "^7.5.0",
+    "prisma": "^5.22.0",
     "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.21.0",
     "typescript": "^5"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@prisma/client",
       "@prisma/engines",
       "prisma",
       "puppeteer",

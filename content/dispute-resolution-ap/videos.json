@@ -1,0 +1,163 @@
+[
+  {
+    "module": 1,
+    "lesson": 1,
+    "title": "The Anatomy of an AP Dispute",
+    "videoUrl": "https://www.youtube.com/watch?v=6sFBmLwZlz8",
+    "videoTitle": "Accounts Payable Basics: A Guide to Almost Everything"
+  },
+  {
+    "module": 1,
+    "lesson": 2,
+    "title": "The Three-Way Match Process",
+    "videoUrl": "https://www.youtube.com/watch?v=LcoKBc2tyOE",
+    "videoTitle": "Three Way Match Worst Practices"
+  },
+  {
+    "module": 1,
+    "lesson": 3,
+    "title": "Stakeholders, Roles, and Communication Flows",
+    "videoUrl": "https://www.youtube.com/watch?v=6bZQTjtAerg",
+    "videoTitle": "AP vs. Accounts Receivable: Understanding the Difference"
+  },
+  {
+    "module": 1,
+    "lesson": 4,
+    "title": "Regulatory and Compliance Considerations",
+    "videoUrl": "https://www.youtube.com/watch?v=JCVR4BFKHwM",
+    "videoTitle": "Internal Controls that NEVER Work"
+  },
+  {
+    "module": 2,
+    "lesson": 1,
+    "title": "Pricing Discrepancy Detection",
+    "videoUrl": "https://www.youtube.com/watch?v=zONC7GF6jcc",
+    "videoTitle": "AP Invoice Processing Automation"
+  },
+  {
+    "module": 2,
+    "lesson": 2,
+    "title": "Quantity and Goods Receipt Reconciliation",
+    "videoUrl": "https://www.youtube.com/watch?v=YEF3NAHnQsU",
+    "videoTitle": "Invoice Capture in Dynamics 365 Finance"
+  },
+  {
+    "module": 2,
+    "lesson": 3,
+    "title": "Duplicate Invoice Detection",
+    "videoUrl": "https://www.youtube.com/watch?v=auzLsjDiTlo",
+    "videoTitle": "The Half DeepFake Fraud - AP Fraud Awareness"
+  },
+  {
+    "module": 2,
+    "lesson": 4,
+    "title": "Building a Rule Engine for AP Validation",
+    "videoUrl": "https://www.youtube.com/watch?v=eYDUhnwVMZA",
+    "videoTitle": "3 Hacks to Improve AP Productivity"
+  },
+  {
+    "module": 3,
+    "lesson": 1,
+    "title": "Statistical Baselines and Anomaly Scoring",
+    "videoUrl": "https://www.youtube.com/watch?v=sEoMIDARpJ0",
+    "videoTitle": "Practical Anomaly Detection"
+  },
+  {
+    "module": 3,
+    "lesson": 2,
+    "title": "Temporal Pattern Analysis",
+    "videoUrl": "https://www.youtube.com/watch?v=Fn0qDbKL3UI",
+    "videoTitle": "Deep Learning for Anomaly Detection (KDD Tutorial)"
+  },
+  {
+    "module": 3,
+    "lesson": 3,
+    "title": "Cross-Vendor and Cross-Category Anomalies",
+    "videoUrl": "https://www.youtube.com/watch?v=dXxrzWeybBo",
+    "videoTitle": "Recent Advances in Anomaly Detection"
+  },
+  {
+    "module": 3,
+    "lesson": 4,
+    "title": "Combining Rules and Anomaly Scores into a Composite Signal",
+    "videoUrl": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+    "videoTitle": "Intro to Large Language Models"
+  },
+  {
+    "module": 4,
+    "lesson": 1,
+    "title": "Agent Decision Logic and Confidence Thresholds",
+    "videoUrl": "https://www.youtube.com/watch?v=kJLiOGle3Lw",
+    "videoTitle": "Stanford Webinar - Agentic AI"
+  },
+  {
+    "module": 4,
+    "lesson": 2,
+    "title": "Drafting Supplier Dispute Messages",
+    "videoUrl": "https://www.youtube.com/watch?v=qBQcfHq96Rw",
+    "videoTitle": "B2B Payments Insights: AP Digital Transformation"
+  },
+  {
+    "module": 4,
+    "lesson": 3,
+    "title": "Managing the Dispute Lifecycle",
+    "videoUrl": "https://www.youtube.com/watch?v=6sFBmLwZlz8",
+    "videoTitle": "Accounts Payable Basics: A Guide to Almost Everything"
+  },
+  {
+    "module": 4,
+    "lesson": 4,
+    "title": "Surfacing Issues to Managers with Actionable Context",
+    "videoUrl": "https://www.youtube.com/watch?v=bnGC6SM-3b8",
+    "videoTitle": "Navigating a Change in Accounts Payable"
+  },
+  {
+    "module": 5,
+    "lesson": 1,
+    "title": "Capturing Human Decisions as Training Signal",
+    "videoUrl": "https://www.youtube.com/watch?v=d5EltXhbcfA",
+    "videoTitle": "Building and Evaluating AI Agents"
+  },
+  {
+    "module": 5,
+    "lesson": 2,
+    "title": "Updating Rules and Models from Feedback",
+    "videoUrl": "https://www.youtube.com/watch?v=D7_ipDqhtwk",
+    "videoTitle": "How We Build Effective Agents - Anthropic"
+  },
+  {
+    "module": 5,
+    "lesson": 3,
+    "title": "Autonomy Levels and Human-in-the-Loop Design",
+    "videoUrl": "https://www.youtube.com/watch?v=xzXdLRUyjUg",
+    "videoTitle": "Let's Build An Agent from Scratch"
+  },
+  {
+    "module": 5,
+    "lesson": 4,
+    "title": "Measuring Agent ROI and Operational Impact",
+    "videoUrl": "https://www.youtube.com/watch?v=qyQCEGlX2pw",
+    "videoTitle": "Why Audit P-Card Controls"
+  },
+  {
+    "module": 6,
+    "lesson": 1,
+    "title": "End-to-End System Architecture",
+    "videoUrl": "https://www.youtube.com/watch?v=xzXdLRUyjUg",
+    "videoTitle": "Let's Build An Agent from Scratch"
+  },
+  {
+    "module": 6,
+    "lesson": 2,
+    "title": "Implementation Planning and Phased Rollout",
+    "videoUrl": "https://www.youtube.com/watch?v=bnGC6SM-3b8",
+    "videoTitle": "Navigating a Change in Accounts Payable"
+  },
+  {
+    "module": 6,
+    "lesson": 3,
+    "title": "Case Study Analysis",
+    "videoUrl": "https://www.youtube.com/watch?v=qBQcfHq96Rw",
+    "videoTitle": "B2B Payments Insights: AP Digital Transformation"
+  }
+]

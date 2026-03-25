@@ -1,0 +1,170 @@
+[
+  {
+    "module": 1,
+    "lesson": 1,
+    "title": "The Economics of Early Payment",
+    "videoUrl": "https://www.youtube.com/watch?v=PxMjKHdgh6Y",
+    "videoTitle": "Explanation of the Effective Annual Rate of Interest (EAR)"
+  },
+  {
+    "module": 1,
+    "lesson": 2,
+    "title": "Payment Terms and Discount Structures in Practice",
+    "videoUrl": "https://www.youtube.com/watch?v=iEZ-rFSitpA",
+    "videoTitle": "Gross vs Net Method of Accounting for Sales Discounts"
+  },
+  {
+    "module": 1,
+    "lesson": 3,
+    "title": "The AP Discount Landscape — Manual vs. Automated",
+    "videoUrl": "https://www.youtube.com/watch?v=vPXjG4quxwM",
+    "videoTitle": "Accounts Payable"
+  },
+  {
+    "module": 1,
+    "lesson": 4,
+    "title": "Organizational Readiness and Stakeholder Alignment",
+    "videoUrl": "https://www.youtube.com/watch?v=EovKfDwRt9Q",
+    "videoTitle": "Net Working Capital"
+  },
+  {
+    "module": 2,
+    "lesson": 1,
+    "title": "Data Sources and Invoice Intelligence",
+    "videoUrl": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+    "videoTitle": "[1hr Talk] Intro to Large Language Models"
+  },
+  {
+    "module": 2,
+    "lesson": 2,
+    "title": "Opportunity Scoring and Prioritization",
+    "videoUrl": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+    "videoTitle": "A Gentle Introduction to Machine Learning"
+  },
+  {
+    "module": 2,
+    "lesson": 3,
+    "title": "Predicting Supplier Receptiveness",
+    "videoUrl": "https://www.youtube.com/watch?v=yIYKR4sgzI8",
+    "videoTitle": "StatQuest: Logistic Regression"
+  },
+  {
+    "module": 2,
+    "lesson": 4,
+    "title": "Cash Flow Integration and Treasury Coordination",
+    "videoUrl": "https://www.youtube.com/watch?v=ANl7zkaO5Pg",
+    "videoTitle": "Cash Conversion Cycle"
+  },
+  {
+    "module": 3,
+    "lesson": 1,
+    "title": "Designing the Outreach Message",
+    "videoUrl": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+    "videoTitle": "Building Agents with Model Context Protocol - Full Workshop with Mahesh Murag of Anthropic"
+  },
+  {
+    "module": 3,
+    "lesson": 2,
+    "title": "Negotiation Frameworks for AI Agents",
+    "videoUrl": "https://www.youtube.com/watch?v=XpEmuxE4qWk",
+    "videoTitle": "17. Backward induction: ultimatums and bargaining"
+  },
+  {
+    "module": 3,
+    "lesson": 3,
+    "title": "Handling Supplier Responses and Objections",
+    "videoUrl": "https://www.youtube.com/watch?v=zNxVVVk5It0",
+    "videoTitle": "21. Repeated games: cooperation vs. the end game"
+  },
+  {
+    "module": 3,
+    "lesson": 4,
+    "title": "Tracking, Reporting, and Continuous Improvement",
+    "videoUrl": "https://www.youtube.com/watch?v=0oc49DyA3hU",
+    "videoTitle": "Hypothesis Testing and The Null Hypothesis, Clearly Explained!!!"
+  },
+  {
+    "module": 4,
+    "lesson": 1,
+    "title": "Agent Architecture and System Design",
+    "videoUrl": "https://www.youtube.com/watch?v=xzXdLRUyjUg",
+    "videoTitle": "Lets Build An Agent from Scratch"
+  },
+  {
+    "module": 4,
+    "lesson": 2,
+    "title": "Implementing the Opportunity Pipeline",
+    "videoUrl": "https://www.youtube.com/watch?v=D7_ipDqhtwk",
+    "videoTitle": "How We Build Effective Agents: Barry Zhang, Anthropic"
+  },
+  {
+    "module": 4,
+    "lesson": 3,
+    "title": "Building the Negotiation Engine",
+    "videoUrl": "https://www.youtube.com/watch?v=d5EltXhbcfA",
+    "videoTitle": "Building and evaluating AI Agents — Sayash Kapoor, AI Snake Oil"
+  },
+  {
+    "module": 4,
+    "lesson": 4,
+    "title": "Payment Execution and Reconciliation",
+    "videoUrl": "https://www.youtube.com/watch?v=CZOrEVMsau8",
+    "videoTitle": "Journal Entry for Accounts Payable"
+  },
+  {
+    "module": 4,
+    "lesson": 5,
+    "title": "Testing, Monitoring, and Deployment",
+    "videoUrl": "https://www.youtube.com/watch?v=h4Sl21AKiDg",
+    "videoTitle": "How Prometheus Monitoring works | Prometheus Architecture explained"
+  },
+  {
+    "module": 5,
+    "lesson": 1,
+    "title": "The Causa Prima Agent-to-Agent Protocol",
+    "videoUrl": "https://www.youtube.com/watch?v=kJLiOGle3Lw",
+    "videoTitle": "Stanford Webinar - Agentic AI: A Progression of Language Model Usage"
+  },
+  {
+    "module": 5,
+    "lesson": 2,
+    "title": "Trust, Verification, and Security in Agent Negotiation",
+    "videoUrl": "https://www.youtube.com/watch?v=GSIDS_lvRv4",
+    "videoTitle": "Public Key Cryptography - Computerphile"
+  },
+  {
+    "module": 5,
+    "lesson": 3,
+    "title": "Optimizing Agent-to-Agent Negotiation Outcomes",
+    "videoUrl": "https://www.youtube.com/watch?v=NBKr-wK-TEQ",
+    "videoTitle": "22. Repeated games: cheating, punishment, and outsourcing"
+  },
+  {
+    "module": 5,
+    "lesson": 4,
+    "title": "Scaling and Future Directions",
+    "videoUrl": "https://www.youtube.com/watch?v=nzKTIGYCjW4",
+    "videoTitle": "The Operating Cycle"
+  },
+  {
+    "module": 6,
+    "lesson": 1,
+    "title": "Capstone Case Study and Program Design Review",
+    "videoUrl": "https://www.youtube.com/watch?v=Ts5IIIpMJvk",
+    "videoTitle": "Days Payable Outstanding"
+  },
+  {
+    "module": 6,
+    "lesson": 2,
+    "title": "Ethical Considerations and Responsible Agent Deployment",
+    "videoUrl": "https://www.youtube.com/watch?v=UG_X_7g63rY",
+    "videoTitle": "How I'm fighting bias in algorithms | Joy Buolamwini"
+  },
+  {
+    "module": 6,
+    "lesson": 3,
+    "title": "Course Synthesis and Capstone Preparation",
+    "videoUrl": "https://www.youtube.com/watch?v=zkHKPEdZeNA",
+    "videoTitle": "Accounts Payable Turnover Ratio"
+  }
+]
